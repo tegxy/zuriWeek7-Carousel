@@ -1,4 +1,4 @@
-let slider = document.querySelector(".pix");
+let slider = document.querySelector(".pic");
 
 let images = [
 	"apic.jpg",
