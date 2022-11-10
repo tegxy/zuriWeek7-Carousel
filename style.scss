@@ -1,32 +1,55 @@
 @import "reset";
 
+body {
+	background-color: rgb(1, 7, 14);
+}
+
 #carousel {
 	width: 800px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 20px auto;
-	// background-color: blue;
 }
 
 #container {
-	// display: flex;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	width: 500px;
 	height: 60vh;
 	margin: 0 20px;
-	background-color: aqua;
+}
+
+#container:hover {
+	cursor: pointer;
+}
+
+#container:hover i {
+	opacity: 1;
 }
 
 #image-container {
 	margin: 0 auto;
-	width: 400px;
-	height: 100%;
-	// position: relative;
-	// width: 400px;
+	width: 500px;
+	height: 60vh;
 }
 
 #image {
-	width: 100%;
+	width: 500px;
 	height: 100%;
-	background-color: pink;
+}
+
+i {
+	position: absolute;
+	background-color: rgb(143, 172, 173);
+	opacity: 0;
+	color: rgb(255, 255, 255);
+	border-radius: 50%;
+	padding: 10px;
+}
+
+#next-btn {
+	right: 0px;
 }
