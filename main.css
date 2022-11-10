@@ -29,6 +29,12 @@ body {
 	max-width: 600px;
 	position: relative;
 }
+
+@media (max-width: 500px) {
+	#carousel {
+		width: 80%;
+	}
+}
 #container {
 	width: 550px;
 	height: 550px;
@@ -36,6 +42,12 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
+}
+
+@media (max-width: 500px) {
+	#container {
+		width: 80%;
+	}
 }
 
 i {
