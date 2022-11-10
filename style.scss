@@ -1,0 +1,32 @@
+@import "reset";
+
+#carousel {
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+	// background-color: blue;
+}
+
+#container {
+	// display: flex;
+	width: 500px;
+	height: 60vh;
+	margin: 0 20px;
+	background-color: aqua;
+}
+
+#image-container {
+	margin: 0 auto;
+	width: 400px;
+	height: 100%;
+	// position: relative;
+	// width: 400px;
+}
+
+#image {
+	width: 100%;
+	height: 100%;
+	background-color: pink;
+}
